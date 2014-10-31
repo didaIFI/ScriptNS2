@@ -1,0 +1,42 @@
+﻿Slide số 12
+
+autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+seed pid time                        # seeds for random generator
+ligand_types A SA C HD N             # atoms types in ligand
+fld protein_name.maps.fld                   # grid_data_file
+map protein_name.A.map                      # atom-specific affinity map
+map protein_name.SA.map                     # atom-specific affinity map
+map protein_name.C.map                      # atom-specific affinity map
+map protein_name.HD.map                     # atom-specific affinity map
+map protein_name.N.map                      # atom-specific affinity map
+elecmap protein_name.e.map                  # electrostatics map
+desolvmap protein_name.d.map                # desolvation map
+move ligand_name.pdbqt              # small molecule
+about 1.8394 0.7828 1.6624           # small molecule center
+tran0 1.8394 0.7828 1.6624           # initial coordinates/A or random
+quaternion0 0 0 0 1                  # initial orientation
+dihe0 0 0                            # initial dihedrals (relative) or random
+tstep 2.0                            # translation step/A
+qstep 50.0                           # quaternion step/deg
+dstep 50.0                           # torsion step/deg
+torsdof 2                            # torsional degrees of freedom
+rmstol 2.0                           # cluster_tolerance/A
+extnrg 1000.0                        # external grid energy
+e0max 0.0 10000                      # max initial energy; max number of retries
+ga_pop_size ga_1                      # number of individuals in population(150)
+ga_num_evals ga_2                 # maximum number of energy evaluations(2500000)
+ga_num_generations ga_3             # maximum number of generations(27000)
+ga_elitism ga_4                         # number of top individuals to survive to next generation(1)
+ga_mutation_rate ga_5                # rate of gene mutation(0.02)
+ga_crossover_rate ga_6                # rate of crossover(0.8)
+ga_window_size ga_7                    # (10)
+ga_cauchy_alpha ga_8                  # Alpha parameter of Cauchy distribution(0.0)
+ga_cauchy_beta ga_9                   # Beta parameter Cauchy distribution(1.0)
+set_ga                               # set the above parameters for GA or LGA
+unbound_model bound                  # state of unbound ligand
+do_global_only ga_10                    # do this many GA runs(50)
+analysis                             # perform a ranked cluster analysis
+
+

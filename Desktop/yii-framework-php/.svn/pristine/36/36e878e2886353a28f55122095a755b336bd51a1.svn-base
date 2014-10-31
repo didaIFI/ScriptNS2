@@ -1,0 +1,541 @@
+<?php
+/* @var $this ProjectController */
+/* @var $model Project */
+
+$this->breadcrumbs = array(
+    'Projects' => array('index'),
+    'Create',
+);
+
+$this->menu = array(
+    array('label' => 'List Project', 'url' => array('index')),
+    array('label' => 'Manage Project', 'url' => array('admin')),
+);
+?>
+
+<!--<h1>Create Project</h1>-->
+
+<?php // echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+            <link href="../first_yii/css/smart_wizard.css" rel="stylesheet" type="text/css">
+                <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+                <script type="text/javascript" src="js/jquery.smartWizard-2.0.min.js"></script>
+
+
+
+
+                <link rel="stylesheet" href="css/common.css" type="text/css" />
+                <link type="text/css" rel="stylesheet" href="css/themes/smoothness/jquery-ui-1.7.1.custom.css" />
+                <link type="text/css" href="css/ui.multiselect.css" rel="stylesheet" />
+                <script type="text/javascript" src="js/jquery-ui-1.8.custom.min.js"></script>
+                <script type="text/javascript" src="js/plugins/localisation/jquery.localisation-min.js"></script>
+                <script type="text/javascript" src="js/plugins/tmpl/jquery.tmpl.1.1.1.js"></script>
+                <script type="text/javascript" src="js/ui.multiselect.js"></script>
+
+
+
+
+                
+
+                <style type="text/css">
+                    #contentMultiselect_ .ui-multiselect.ui-helper-clearfix.ui-widget {
+                        width: 476px !important;
+                    }
+                    #contentMultiselect_ .list.selected.ui-sortable.ui-droppable, .list.selected.ui-sortable.ui-droppable {
+                        height: 190px !important;
+                    }
+                    #contentMultiselect_ .ui-widget-content.list-container.selected {
+                        width: 275px !important;
+                    }
+                    #contentMultiselect_ .ui-widget-content.list-container.available {
+                        width: 200px !important;
+                    }
+                    #contentMultiselect_ .search.ui-widget-content.ui-corner-all {
+                        width: 108px !important;
+                    }
+                    .param_font
+                    {
+                        font-size: 11px !important;
+                    }
+                    .param_text
+                    {
+                        width: 70%;
+                        float: left;
+                        padding-top: 5px;
+                    }
+                    .param_value
+                    {
+                        width: 25%;
+                        float: left;
+                        padding-top: 5px;
+                    }
+                    .pading_row
+                    {
+                        width: 100%;
+                    }
+                </style>
+                </head>
+                <body>
+                    <ul></ul>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0">
+                        <tr><td> 
+                                <!-- Smart Wizard -->
+                                <div id="wizard" class="swMain" style="margin-left: 35px;">
+                                    <ul>
+                                        <li><a href="#step-1">
+                                                <span class="stepNumber">1</span>
+                                                <span class="stepDesc">
+                                                    Step 1<br />
+                                                    <small>Select Proteins</small>
+                                                </span>
+                                            </a></li>
+                                        <li><a href="#step-2">
+                                                <span class="stepNumber">2</span>
+                                                <span class="stepDesc">
+                                                    Step 2<br />
+                                                    <small>Select Ligands</small>
+                                                </span>
+                                            </a></li>
+                                        <li><a href="#step-3">
+                                                <span class="stepNumber">3</span>
+                                                <span class="stepDesc">
+                                                    Step 3<br />
+                                                    <small>Select parameters</small>
+                                                </span>                   
+                                            </a></li>
+                                    </ul>
+                                    <div id="step-1">	
+                                        <h2 class="StepTitle">Select Proteins</h2>
+                                        <div id="contentMultiselect">
+
+                                            <br/>
+                                            <select id="countries" class="multiselect" multiple="multiple" name="countries[]">
+
+                                                <?php foreach ($modelProtein as $key => $value): ?>            
+                                                    <option value="<?= $value['protein_id'] ?>"><?php echo $value['name']; ?></option>
+                                                <?php endforeach; ?>
+
+                                            </select>
+
+                                            <input id="ligand" type="button" value="show proteins" onclick="onclickLigand()"/>
+
+
+                                            <script type="text/javascript" src="http://jqueryui.com/themeroller/themeswitchertool/"></script>
+
+                                        </div> 
+                                    </div>
+                                    <div id="step-2">
+                                        <h2 class="StepTitle">Select Ligands</h2>	
+                                        <div id="contentMultiselect_">
+
+                                            <!--                                            <ul>
+                                                                                        </ul>-->
+                                            <br/>
+                                            <select id="city" class="multiselect" multiple="multiple" name="city[]">
+
+                                                <?php foreach ($modelLigand as $key => $value): ?>            
+                                                    <option value="<?= $value['ligand_id'] ?>"><?php echo $value['name']; ?></option>
+                                                <?php endforeach; ?>
+
+                                            </select>
+
+                                            <input id="ligand_" type="button" value="show ligands" onclick="onclickLigand_()"/>
+
+                                        </div>          
+                                    </div>                      
+                                    <div id="step-3">
+                                        <h2 class="StepTitle">Select Parameters</h2>	
+                                        <!--content here...-->
+                                        <div id="param">
+                                            <div id="option" style="float: left; width: 25%; padding: 80px 0px 0px 5px;">
+                                                <input type="radio" name="typeof" value="lga">&nbsp;&nbsp;1.Lamarkian Genetic Algorithm
+                                                <br/><br/>
+                                                <input type="radio" name="typeof" value="ls">&nbsp;&nbsp;2.Local search
+                                                <br/><br/>
+                                                <input type="radio" name="typeof" value="ga">&nbsp;&nbsp;3.General Algorithm
+                                                <br/><br/>
+                                                <input type="radio" name="typeof" value="sa">&nbsp;&nbsp;4.Simulated Annealing
+                                            </div>
+                                            <div id="content" style="float: right; width: 70%; padding-top: 15px;">
+                                                
+                                                <div id="lga_param" style="display: none;" class="param_font">
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            hybrid GA-LS runs
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="lag_1" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div id="ls_param" style="display: none;">
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of LS Runs
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_1" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of Iterations
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_2"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of Successes in a Row before changing rho
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_3"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of Failures in a Row before changing rho
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_4"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Solids & Wets param defining initial variance and size of
+                                                            local space to sample (rho)
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_5"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Lower bound on rho
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_6"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Probability of any particular phenotype being subjected to local search
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ls_7"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            FOR LOCAL SEARCH, USE
+                                                        </div>
+                                                    </div>
+                                                    <div style="clear: both;" class="param_font">
+                                                        <div>
+                                                            <input type="radio" name="ls_type" value="0" checked="">1.Solid & Wet with uniform variances
+                                                            <input type="radio" name="ls_type" value="1">2.pseudo-Solid & Wet with relative variances
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div id="ga_param" style="display: none;">
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of GA Runs
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_1"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Population size
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_2"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of Evals
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_3"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of Generations
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_4"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Maximum Number of top individuals that auto servive
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_5"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Rate of Gene Mutation
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_6"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Rate of crossover
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_7"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            GA crossover mode
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_8"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Mean of Cauchy distribution for gene mutation
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_9"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Variance of Cauchy distribution for gene mutation
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_10"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of generations for picking worst individual
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" id="ga_11"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div id="sa_param" style="display: none;">
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of Runs
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of accepted step/cycle
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of cycles
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Number of rejected step/cycle
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row param_font">
+                                                        <div class="param_value">
+                                                            Begin next cycle USE
+                                                        </div>
+                                                        <div class="param_text param_font">
+                                                            <input type="radio" name="sa_type_1" value="0" checked="">1.minimum state
+                                                                &nbsp;&nbsp;
+                                                            <input type="radio" name="sa_type_1" value="1">2.last state
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row param_font">
+                                                        <div class="param_value">
+                                                            Reduction schedule type
+                                                        </div>
+                                                        <div class="param_text param_font">
+                                                            <input type="radio" name="sa_type_2" value="0" checked="">1.Linear
+                                                                &nbsp;&nbsp;
+                                                            <input type="radio" name="sa_type_2" value="1">2.Geometric
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Translation
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Quaternion
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Dihedral
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Temperature
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="pading_row">
+                                                        <div class="param_text param_font">
+                                                            Initial Temperature(degree)
+                                                        </div>
+                                                        <div class="param_value">
+                                                            <input type="text" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End SmartWizard Content -->  		
+
+                            </td></tr>
+                    </table>
+
+                </body>
+                </html>
+
+
+                <script type="text/javascript">
+                    $(function(){
+                        $.localise('ui.multiselect', {/*language: 'es',/* */ path: 'js/locale/'});
+
+                        // local
+                        $("#countries").multiselect();
+                        $("#city").multiselect();
+                        // remote
+                        $("#languages").multiselect({
+                            remoteUrl: "ajax.php"
+                        });
+
+                        // only if the function is available...
+                        if ($.fn.themeswitcher) {
+                            $('#switcher')
+                            .before('<h4>Use the themeroller to dynamically change look and feel</h4>')
+                            .themeswitcher();
+                        }
+                    });
+            
+                    function onclickLigand()
+                    {
+                        var selectedLigands = $("#countries").val();
+                        alert(selectedLigands);
+                        return false;
+                    }
+                    function onclickLigand_()
+                    {
+                        var selectedLigands = $("#city").val();
+                        alert(selectedLigands);
+                        return false;
+                    }
+                    // onchange event input radio button (choose type of param)
+                    $('input:radio').change(
+                    function(){
+                            var selected = $(this).val().trim();
+//                            alert(selected);
+                            if('lga' == selected)
+                            {
+                                $("[id$=_param]").hide();
+                                $("#lga_param").show();
+                            }
+                            else if('ls' == selected)
+                            {
+                                $("[id$=_param]").hide();
+                                $("#ls_param").show();
+                            }
+                            else if('ga' == selected)
+                            {
+                                $("[id$=_param]").hide();
+                                $("#ga_param").show();
+                            }
+                            else if('sa' == selected)
+                            {
+                                $("[id$=_param]").hide();
+                                $("#sa_param").show();
+                            }
+                        }
+                    );
+                </script>
+<script type="text/javascript">
+                    $(document).ready(function(){
+                        // Smart Wizard 	
+                        $('#wizard').smartWizard();
+      
+                        function onFinishCallback(){
+                            $('#wizard').smartWizard('showMessage','Finish Clicked');
+                        }
+                        
+                        $(".buttonFinish").live('click', function(){
+                            alert($("[name=sa_type_2]:checked").val());
+                            //alert('action submit form...');
+                            $.ajax({
+                                url: 'index.php?r=project/docking',
+                                type: 'post',
+                                data: 'qlot=90&ht=91',
+                    //            dataType: 'json',
+//                                data: rowId,
+                                success: function(data){
+//                                    alert(data);
+                                    if (data == 'success')
+                                    {
+                                        alert(data);
+                                    }
+                                    else
+                                    {
+                                        alert('action failed');
+                                    }
+                                }
+                            });
+
+                            return;
+                        });
+                    });
+                </script>

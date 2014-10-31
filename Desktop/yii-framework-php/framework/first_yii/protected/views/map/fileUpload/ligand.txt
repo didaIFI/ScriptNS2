@@ -1,0 +1,6 @@
+121P_GTO.pdbqt
+121P.pdbqt
+1OKE.pdbqt
+ligand1.pdbqt
+target-1.pdbqt
+ZINC.pdbqt

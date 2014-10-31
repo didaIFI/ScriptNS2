@@ -1,0 +1,18 @@
+/Job/OwnerGroup = biomed_user
+/Executable = dock.sh
+/DIRACSetup = Dirac-Production
+/VirtualOrganization = biomed
+/Priority = 1
+/StdError = stdErr
+/InputSandbox = /home/dida/DIRAC/jdlDocking/dock.sh, LFN:/biomed/user/l/louacheni/fileVS.tar.gz, SB:ProductionSandboxSE|/Sandbox/l/louacheni.biomed_user/13e/532/13e532fc17c3de1c2ed55242de0844e3.tar.bz2
+/SubmitPools = biomedPool
+/JobName = dockingFile-jdlDocking
+/OwnerDN = /C=TW/O=AP/OU=GRID/CN=Farida Louacheni 389685
+/OutputSandbox = stdOut, stdErr, file_dock.zip
+/JobRequirements = [    OwnerDN = /C=TW/O=AP/OU=GRID/CN=Farida Louacheni 389685;    VirtualOrganization = biomed;    Setup = Dirac-Production;    CPUTime = 86400;    OwnerGroup = biomed_user;    UserPriority = 1;    SubmitPools = biomedPool;  ]
+/CPUTime = 86400
+/StdOutput = stdOut
+/Owner = louacheni
+/MaxCPUTime = 86400
+/JobID = 18319633
+/OwnerName = louacheni

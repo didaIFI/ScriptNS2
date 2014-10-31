@@ -1,0 +1,83 @@
+<?php
+
+/* @var $this ProjectController */
+/* @var $model Project */
+
+$this->breadcrumbs = array(
+    'Projects' => array('index'),
+    'Manage',
+);
+
+$this->menu = array(
+    array('label' => 'List Project', 'url' => array('index')),
+    array('label' => 'Create Project', 'url' => array('create')),
+);
+?>
+<?php
+
+echo CHtml::link('Add new project', "index.php?r=project/create"
+);
+?>
+<?php
+
+$this->widget('zii.widgets.grid.CGridView', array(
+    'id' => 'project-grid',
+    'dataProvider' => $model->search(),
+    'columns' => array(
+//		'project_id',
+//		'user_id',
+        array(
+            'header' => 'Index',
+            'name' => 'id',
+            // an array of class and method wich will be called with call_user_func_array
+            'value' => array('MyClass', 'myMethod'),
+            'htmlOptions' => array('width' => '40px')
+        ),
+        'project_name',
+        'waiting_job',
+        'running_job',
+        'completed_job',
+        'failed_job',
+//        array(
+//            'class' => 'CButtonColumn',
+//        ),
+        array(
+            'header'=>'Refresh',
+            'class'    => 'CButtonColumn',
+            'template' => '{refresh}',
+            'buttons'  => array(
+                'refresh' => array(
+                    'lable' => 'refresh',
+                    'visible' => 'true',
+                    'click'=>'function(){alert("Refresh state prjoject!");}',
+//                    'click'=>'function(){var rowIdx=$(this).closest("tr").attr("sectionRowIndex");var rowId=$("#"+$(this).closest("div.grid-view").attr("id")+" > div.keys > span:eq("+rowIdx+")").text();alert(rowId);}',
+                )
+             )
+         ),
+        array(
+            'header'=>'Download',
+            'class'    => 'CButtonColumn',
+            'template' => '{result}',
+            'buttons'  => array(
+                'result' => array(
+                    'lable' => 'save result',
+                    'visible' => 'true',
+                    'click'=>'function(){alert("Download file!");}',
+                )
+             )
+         ),
+    ),
+));
+
+class MyClass {
+
+    public static function myMethod($data, $row, $component) {
+        //the $data is the ActiveRecord Model collection from the dataProvider
+        //the $row is the data row
+        //the $component is the CGridColumn object for each columns
+        // return the result you want
+        return $row + 1;
+    }
+
+}
+?>

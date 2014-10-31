@@ -1,0 +1,1631 @@
+2013/05/30 18:08:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ngoisaoxinh.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+2013/05/30 18:10:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\gii\CCodeGenerator.php:90
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('code')
+#5 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code')
+#6 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=gii/model/code&id=0
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=gii/model
+---
+2013/06/05 11:14:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 D:\source_code\php\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin
+---
+2013/06/05 11:14:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 D:\source_code\php\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/create
+---
+2013/06/16 06:01:25 [error] [exception.CException] exception 'CException' with message 'Property "Admin.Number" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(143): CComponent->__get('Number')
+#1 D:\source_code\php\yii-framework-php\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('Number')
+#2 D:\source_code\php\yii-framework-php\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Admin), 'Number')
+#3 D:\source_code\php\yii-framework-php\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Admin), 'Number', Array)
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php(97): CHtml::activeTextField(Object(Admin), 'Number', Array)
+#5 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(109): CDataColumn->renderFilterCellContent()
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(505): CGridColumn->renderFilterCell()
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(483): CGridView->renderFilter()
+#8 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(453): CGridView->renderTableHeader()
+#9 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#13 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CBaseListView->run()
+#14 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#16 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#19 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#21 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#22 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#23 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#24 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#25 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#26 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#27 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#28 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#30 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#31 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#32 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:13:40 [error] [php] Undefined variable: row (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:55)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 06:16:51 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('0', 'username')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:17:55 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.title" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('title', 'idx')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:17:59 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.title" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('title', 'idx')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:40:45 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.viewButtonUrl" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('viewButtonUrl', 'Yii::app()->cre...')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(71): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:43:23 [error] [exception.CException] exception 'CException' with message 'Property "CLinkColumn.viewButtonUrl" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('viewButtonUrl', 'Yii::app()->cre...')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(77): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 06:45:00 [error] [exception.CException] exception 'CException' with message 'Either "name" or "value" must be specified for CDataColumn.' in D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php:78
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(376): CDataColumn->init()
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#2 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(74): CBaseController->widget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(143): CController->render('admin', Array)
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#21 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 13:20:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\source_code\php\yii-framework-php\framework\web\CController.php:336
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/update')
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/update
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 13:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update/10".' in D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('update/10')
+#1 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=update/10
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+---
+2013/06/16 13:25:13 [error] [php] Undefined variable: data (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:99)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 13:26:54 [error] [php] Undefined variable: data (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:99)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 13:28:24 [error] [php] Use of undefined constant id - assumed 'id' (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:158)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 13:28:53 [error] [php] Use of undefined constant idModel - assumed 'idModel' (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:158)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 13:29:27 [error] [php] Use of undefined constant idModel - assumed 'idModel' (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:158)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 13:32:12 [error] [php] Undefined variable: data (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php:102)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/16 17:27:34 [error] [php] Undefined variable: model (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\_form.php:16)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\admin\admin.php(55): AdminController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): AdminController->renderFile()
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): AdminController->renderPartial()
+#6 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(158): AdminController->render()
+#7 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#16 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): AdminController->run()
+#17 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/admin
+2013/06/18 11:43:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'autodock.tbl_admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_admin`.
+2013/06/18 11:43:06 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_admin" for active record class "Admin" cannot be found in the database.' in D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Admin))
+#1 D:\source_code\php\yii-framework-php\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Admin')
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(141): CActiveDataProvider->__construct('Admin')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin/
+---
+2013/06/18 11:43:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'autodock.tbl_admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_admin`.
+2013/06/18 11:43:11 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_admin" for active record class "Admin" cannot be found in the database.' in D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Admin))
+#1 D:\source_code\php\yii-framework-php\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Admin')
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\AdminController.php(141): CActiveDataProvider->__construct('Admin')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=admin
+---
+2013/06/18 19:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update?id=5".' in D:\source_code\php\yii-framework-php\framework\web\CController.php:483
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(270): CController->missingAction('update?id=5')
+#1 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update?id=5')
+#2 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update?i...')
+#3 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update?id=5
+---
+2013/06/18 19:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "udpate".' in D:\source_code\php\yii-framework-php\framework\web\CController.php:483
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(270): CController->missingAction('udpate')
+#1 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('udpate')
+#2 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/udpate')
+#3 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/udpate&id=2
+---
+2013/06/20 11:10:00 [error] [exception.CException] exception 'CException' with message 'Property "LigandController._model" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(195): CComponent->__get('_model')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('5')
+#2 [internal function]: LigandController->actionUpdate('5')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=5
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:12:06 [error] [exception.CException] exception 'CException' with message 'Property "LigandController._model" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(195): CComponent->__get('_model')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('6')
+#2 [internal function]: LigandController->actionUpdate('6')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=6
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:12:09 [error] [exception.CException] exception 'CException' with message 'Property "LigandController._model" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(195): CComponent->__get('_model')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('7')
+#2 [internal function]: LigandController->actionUpdate('7')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=7
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:12:11 [error] [exception.CException] exception 'CException' with message 'Property "LigandController._model" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(195): CComponent->__get('_model')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('3')
+#2 [internal function]: LigandController->actionUpdate('3')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=3
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:12:13 [error] [exception.CException] exception 'CException' with message 'Property "LigandController._model" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(195): CComponent->__get('_model')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('1')
+#2 [internal function]: LigandController->actionUpdate('1')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=1
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:51:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\source_code\php\yii-framework-php\framework\web\CController.php:336
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php:192
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('""')
+#1 [internal function]: LigandController->actionUpdate('""')
+#2 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=%22%22
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php:192
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(104): LigandController->loadModel('0')
+#1 [internal function]: LigandController->actionUpdate('0')
+#2 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LigandController), Array)
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LigandController), Object(ReflectionMethod), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update&id=0
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/20 11:56:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\source_code\php\yii-framework-php\framework\web\CController.php:336
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/update')
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/update
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/22 11:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProteinController.php:185
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProteinController.php(102): ProteinController->loadModel('0')
+#1 [internal function]: ProteinController->actionUpdate('0')
+#2 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProteinController), Array)
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProteinController), Object(ReflectionMethod), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/update')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/update&id=0
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/22 12:09:54 [error] [php] Undefined variable: model (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\create.php:18)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(79): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/create
+2013/06/22 12:12:03 [error] [php] Undefined variable: model (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\create.php:18)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(80): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/create
+2013/06/22 12:12:05 [error] [php] Undefined variable: model (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\create.php:18)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(80): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/create
+2013/06/22 12:12:08 [error] [php] Undefined variable: model (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\create.php:18)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(80): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/create
+2013/06/23 11:28:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\xAB th...' for column 'name' at row 1. The SQL statement executed was: UPDATE `protein` SET `protein_id`=:yp0, `name`=:yp1, `file_name`=:yp2, `resolution`=:yp3, `co_crystallized_ligand`=:yp4, `archive_protein`=:yp5, `center_x`=:yp6, `center_y`=:yp7, `center_z`=:yp8, `size_x`=:yp9, `size_y`=:yp10, `size_z`=:yp11 WHERE `protein`.`protein_id`=1.
+2013/06/23 11:28:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\xAB th...' for column 'name' at row 1. The SQL statement executed was: UPDATE `protein` SET `protein_id`=:yp0, `name`=:yp1, `file_name`=:yp2, `resolution`=:yp3, `co_crystallized_ligand`=:yp4, `archive_protein`=:yp5, `center_x`=:yp6, `center_y`=:yp7, `center_z`=:yp8, `size_x`=:yp9, `size_y`=:yp10, `size_z`=:yp11 WHERE `protein`.`protein_id`=1' in D:\source_code\php\yii-framework-php\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('1', Array)
+#2 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProteinController.php(117): CActiveRecord->save()
+#4 [internal function]: ProteinController->actionUpdate('0')
+#5 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProteinController), Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProteinController), Object(ReflectionMethod), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#16 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/update')
+#17 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/update&id=0
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/23 11:29:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\xAB th...' for column 'name' at row 1. The SQL statement executed was: UPDATE `protein` SET `protein_id`=:yp0, `name`=:yp1, `file_name`=:yp2, `resolution`=:yp3, `co_crystallized_ligand`=:yp4, `archive_protein`=:yp5, `center_x`=:yp6, `center_y`=:yp7, `center_z`=:yp8, `size_x`=:yp9, `size_y`=:yp10, `size_z`=:yp11 WHERE `protein`.`protein_id`=1.
+2013/06/23 11:29:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\xAB th...' for column 'name' at row 1. The SQL statement executed was: UPDATE `protein` SET `protein_id`=:yp0, `name`=:yp1, `file_name`=:yp2, `resolution`=:yp3, `co_crystallized_ligand`=:yp4, `archive_protein`=:yp5, `center_x`=:yp6, `center_y`=:yp7, `center_z`=:yp8, `size_x`=:yp9, `size_y`=:yp10, `size_z`=:yp11 WHERE `protein`.`protein_id`=1' in D:\source_code\php\yii-framework-php\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('1', Array)
+#2 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProteinController.php(117): CActiveRecord->save()
+#4 [internal function]: ProteinController->actionUpdate('0')
+#5 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProteinController), Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProteinController), Object(ReflectionMethod), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#16 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/update')
+#17 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/update&id=0
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/23 11:34:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\x95ng ...' for column 'name' at row 1. The SQL statement executed was: INSERT INTO `protein` (`name`, `file_name`, `resolution`, `co_crystallized_ligand`, `archive_protein`, `center_x`, `center_y`, `center_z`, `size_x`, `size_y`, `size_z`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+2013/06/23 11:34:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE1\xBB\x95ng ...' for column 'name' at row 1. The SQL statement executed was: INSERT INTO `protein` (`name`, `file_name`, `resolution`, `co_crystallized_ligand`, `archive_protein`, `center_x`, `center_y`, `center_z`, `size_x`, `size_y`, `size_z`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in D:\source_code\php\yii-framework-php\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProteinController.php(68): CActiveRecord->save()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProteinController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('create')
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/create')
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/create
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/25 16:30:55 [error] [php] Undefined variable: modelLigand (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\create.php:138)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(97): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/create
+2013/06/25 18:24:06 [error] [php] Undefined index: project_mgr (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php:37)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): LigandController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): LigandController->endWidget()
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column2.php(23): LigandController->endContent()
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): LigandController->renderInternal()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): LigandController->renderFile()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\LigandController.php(194): LigandController->render()
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): LigandController->actionAdmin()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): LigandController->runAction()
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): LigandController->filterAccessControl()
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): LigandController->runActionWithFilters()
+#19 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): LigandController->run()
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+2013/06/25 18:24:16 [error] [php] Undefined variable: _SESSION (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php:37)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column1.php(8): SiteController->endContent()
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): SiteController->renderFile()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\SiteController.php(32): SiteController->render()
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(286): SiteController->runAction()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): SiteController->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php
+2013/06/25 18:27:23 [error] [php] Undefined variable: _SESSION (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php:37)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column1.php(8): SiteController->endContent()
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): SiteController->renderFile()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\SiteController.php(32): SiteController->render()
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(286): SiteController->runAction()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): SiteController->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php
+2013/06/26 08:26:05 [error] [php] Undefined variable: title (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php:50)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column1.php(8): SiteController->endContent()
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): SiteController->renderFile()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\SiteController.php(32): SiteController->render()
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(286): SiteController->runAction()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): SiteController->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php
+2013/06/26 08:26:39 [error] [php] Undefined variable: title (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php:50)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column1.php(8): SiteController->endContent()
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): SiteController->renderFile()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\SiteController.php(99): SiteController->render()
+#10 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(286): SiteController->runAction()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): SiteController->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=site/login
+2013/06/26 08:59:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.protein_mgr" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CWebUser.php(140): CComponent->__get('protein_mgr')
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\main.php(35): CWebUser->__get('protein_mgr')
+#2 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#4 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\source_code\...', Array, true)
+#5 D:\source_code\php\yii-framework-php\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\source_code\php\yii-framework-php\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\layouts\column1.php(8): CBaseController->endContent()
+#10 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#11 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(784): CBaseController->renderFile('D:\source_code\...', Array, true)
+#13 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/06/26 11:42:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/06/26 11:42:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/26 11:42:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/26 11:42:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=project/admin
+---
+2013/06/26 11:42:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('ligand/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+---
+2013/06/26 11:42:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=ligand/admin
+---
+2013/06/26 13:07:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/06/26 16:38:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('protein/admin')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=protein/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/08 06:41:38 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\YiiBase.php(220): CComponent->__set('0', 'project_id')
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(CGridView))
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#3 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(147): CGridView->init()
+#4 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#7 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): CController->render('admin', Array)
+#11 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#22 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/08 06:41:56 [error] [php] Use of undefined constant project_id - assumed 'project_id' (D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CGridView->run()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(76): ProjectController->widget()
+#10 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#11 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#14 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): ProjectController->render()
+#15 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#18 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#24 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#25 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+2013/07/08 06:42:10 [error] [php] Use of undefined constant project_id - assumed 'project_id' (D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CGridView->run()
+#9 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(76): ProjectController->widget()
+#10 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require()
+#11 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#13 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#14 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): ProjectController->render()
+#15 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#18 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#24 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#25 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+2013/07/08 06:42:19 [error] [exception.CException] exception 'CException' with message 'Property "Project.id" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code(1): CActiveRecord->__get('id')
+#2 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606): eval()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php(131): CComponent->evaluateExpression('$data->id', Array)
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Project))
+#5 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CGridColumn->renderDataCell(0)
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow(0)
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#8 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#12 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#14 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#15 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): CController->render('admin', Array)
+#19 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#20 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#27 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#29 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#30 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/08 06:42:35 [error] [exception.CException] exception 'CException' with message 'Property "Project.id" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code(1): CActiveRecord->__get('id')
+#2 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606): eval()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php(131): CComponent->evaluateExpression('$data->id', Array)
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Project))
+#5 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CGridColumn->renderDataCell(0)
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow(0)
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#8 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#12 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#14 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#15 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): CController->render('admin', Array)
+#19 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#20 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#27 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#29 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#30 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/08 06:47:42 [error] [php] Use of undefined constant fales - assumed 'fales' (D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php:31)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): ProjectController->renderFile()
+#1 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): ProjectController->render()
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#4 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+2013/07/08 06:51:40 [error] [exception.CException] exception 'CException' with message 'Property "Project.value" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(143): CComponent->__get('value')
+#1 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code(1): CActiveRecord->__get('value')
+#2 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606): eval()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php(131): CComponent->evaluateExpression('CHtml::hiddenFi...', Array)
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Project))
+#5 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CGridColumn->renderDataCell(0)
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow(0)
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#8 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#12 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(77): CBaseController->widget('zii.widgets.gri...', Array)
+#14 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#15 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): CController->render('admin', Array)
+#19 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#20 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#27 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#29 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#30 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/08 06:51:56 [error] [exception.CException] exception 'CException' with message 'Property "Project.value" is not defined.' in D:\source_code\php\yii-framework-php\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\db\ar\CActiveRecord.php(143): CComponent->__get('value')
+#1 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606) : eval()'d code(1): CActiveRecord->__get('value')
+#2 D:\source_code\php\yii-framework-php\framework\base\CComponent.php(606): eval()
+#3 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CDataColumn.php(131): CComponent->evaluateExpression('CHtml::hiddenFi...', Array)
+#4 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent(0, Object(Project))
+#5 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(589): CGridColumn->renderDataCell(0)
+#6 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow(0)
+#7 D:\source_code\php\yii-framework-php\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#8 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 D:\source_code\php\yii-framework-php\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#12 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 D:\source_code\php\yii-framework-php\framework\first_yii\protected\views\project\admin.php(77): CBaseController->widget('zii.widgets.gri...', Array)
+#14 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(126): require('D:\source_code\...')
+#15 D:\source_code\php\yii-framework-php\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\source_code\...', Array, true)
+#16 D:\source_code\php\yii-framework-php\framework\web\CController.php(869): CBaseController->renderFile('D:\source_code\...', Array, true)
+#17 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(160): CController->render('admin', Array)
+#19 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(49): ProjectController->actionAdmin()
+#20 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#27 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('admin')
+#29 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#30 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php
+---
+2013/07/09 17:11:23 [error] [exception.CException] exception 'CException' with message 'ProjectController cannot find the requested view "update".' in D:\source_code\php\yii-framework-php\framework\web\CController.php:878
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(120): CController->render('update', Array)
+#2 [internal function]: ProjectController->actionUpdate('2')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('update')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/update')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/update&id=2
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=project/admin
+---
+2013/07/09 17:17:23 [error] [exception.CException] exception 'CException' with message 'ProjectController cannot find the requested view "view".' in D:\source_code\php\yii-framework-php\framework\web\CController.php:878
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#1 D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php(56): CController->render('view', Array)
+#2 [internal function]: ProjectController->actionView('2')
+#3 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#4 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('view')
+#14 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#15 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/view&id=2
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=project/admin
+---
+2013/07/10 17:51:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): CController->run('refresh')
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController('project/refresh')
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/refresh
+HTTP_REFERER=http://localhost/yii-framework-php/framework/first_yii/index.php?r=project/admin
+---
+2013/07/10 17:56:16 [error] [php] Undefined index: rowId (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:176)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/refresh
+2013/07/11 05:36:39 [error] [php] SoapClient::SoapClient(http://localhost:8080/dockingws/dockingws?WSDL) [<a href='soapclient.soapclient'>soapclient.soapclient</a>]: failed to open stream: No connection could be made because the target machine actively refused it.
+ (D:\source_code\php\yii-framework-php\framework\first_yii\protected\components\dockingws.php:92)
+Stack trace:
+#0 unknown(0): ProjectController->actionRefresh()
+#1 D:\source_code\php\yii-framework-php\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#2 D:\source_code\php\yii-framework-php\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#8 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#11 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#12 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/refresh&id=2
+2013/07/14 17:16:05 [error] [php] file_get_contents(../first_yii/assets/icon-archive/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:18:40 [error] [php] file_get_contents(../first_yii/assets/icon-archive/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:22:50 [error] [php] file_get_contents(../assets/icon-archive/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:23:33 [error] [php] file_get_contents(../first_yii/assets/tmp_param/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:24:18 [error] [php] file_get_contents(../assets/tmp_param/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:25:23 [error] [php] file_get_contents(../tmp_param/Lanmarkine genetic algorithm.dpf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:193)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#2 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#5 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#9 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking
+2013/07/14 17:49:34 [error] [php] Undefined variable: content (D:\source_code\php\yii-framework-php\framework\first_yii\protected\controllers\ProjectController.php:200)
+Stack trace:
+#0 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#1 D:\source_code\php\yii-framework-php\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\source_code\php\yii-framework-php\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\source_code\php\yii-framework-php\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#4 D:\source_code\php\yii-framework-php\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\source_code\php\yii-framework-php\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-framework-php\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#7 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(282): ProjectController->run()
+#8 D:\source_code\php\yii-framework-php\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\source_code\php\yii-framework-php\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-framework-php\framework\first_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-framework-php/framework/first_yii/index.php?r=project/docking

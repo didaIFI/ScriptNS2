@@ -1,0 +1,1 @@
+Processor 'Get_Protein_FASTA' - Port 'outputText': Line 7: java.io.IOException: Server returned HTTP response code: 400 for URL: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?rettype=fasta&db=protein&retmode=text&id=gene

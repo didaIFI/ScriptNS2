@@ -1,0 +1,8 @@
+<?php /* @var $this Controller */ ?>
+<?php $this->beginContent('//layouts/main'); ?>
+<div id="content">
+        Bat dau column1.php.....................<br/>
+	<?php echo $content; ?><br/>
+        Ket thuc column1.php....................
+</div><!-- content -->
+<?php $this->endContent(); ?>

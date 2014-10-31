@@ -1,0 +1,59 @@
+<?php
+/* @var $this ProteinController */
+/* @var $data Protein */
+?>
+
+<div class="view">
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('protein_id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->protein_id), array('view', 'id'=>$data->protein_id)); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
+	<?php echo CHtml::encode($data->name); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('file_name')); ?>:</b>
+	<?php echo CHtml::encode($data->file_name); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('resolution')); ?>:</b>
+	<?php echo CHtml::encode($data->resolution); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('co_crystallized_ligand')); ?>:</b>
+	<?php echo CHtml::encode($data->co_crystallized_ligand); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('archive_protein')); ?>:</b>
+	<?php echo CHtml::encode($data->archive_protein); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('center_x')); ?>:</b>
+	<?php echo CHtml::encode($data->center_x); ?>
+	<br />
+
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('center_y')); ?>:</b>
+	<?php echo CHtml::encode($data->center_y); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('center_z')); ?>:</b>
+	<?php echo CHtml::encode($data->center_z); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('size_x')); ?>:</b>
+	<?php echo CHtml::encode($data->size_x); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('size_y')); ?>:</b>
+	<?php echo CHtml::encode($data->size_y); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('size_z')); ?>:</b>
+	<?php echo CHtml::encode($data->size_z); ?>
+	<br />
+
+	*/ ?>
+
+</div>

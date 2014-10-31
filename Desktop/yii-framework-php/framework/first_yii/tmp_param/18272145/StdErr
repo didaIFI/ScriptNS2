@@ -1,0 +1,4 @@
+/home/grid/biomed004/home_cream_620461257/CREAM620461257/DIRAC_27Z973pilot/18272145/autodock4: WARNING: Using autodock4.0 unbound extended model in autodock4.2!
+autodock.sh: line 41: grid: command not found
+autodock.sh: line 42: dock: command not found
+cp: target `/var/www/yii-framework-php/framework/first_yii/tmp_param' is not a directory

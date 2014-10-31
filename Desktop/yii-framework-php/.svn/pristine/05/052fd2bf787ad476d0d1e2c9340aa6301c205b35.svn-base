@@ -1,0 +1,54 @@
+﻿Slide số 12
+
+autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+seed pid time                        # seeds for random generator
+ligand_types A SA C HD N             # atoms types in ligand
+fld x1hpv.maps.fld                   # grid_data_file
+map x1hpv.A.map                      # atom-specific affinity map
+map x1hpv.SA.map                     # atom-specific affinity map
+map x1hpv.C.map                      # atom-specific affinity map
+map x1hpv.HD.map                     # atom-specific affinity map
+map x1hpv.N.map                      # atom-specific affinity map
+elecmap x1hpv.e.map                  # electrostatics map
+desolvmap x1hpv.d.map                # desolvation map
+move ZINC00000480.pdbqt              # small molecule
+about 1.8394 0.7828 1.6624           # small molecule center
+tran0 1.8394 0.7828 1.6624           # initial coordinates/A or random
+quaternion0 0 0 0 1                  # initial orientation
+dihe0 0 0                            # initial dihedrals (relative) or random
+tstep 2.0                            # translation step/A
+qstep 50.0                           # quaternion step/deg
+dstep 50.0                           # torsion step/deg
+torsdof 2                            # torsional degrees of freedom
+rmstol 2.0                           # cluster_tolerance/A
+extnrg 1000.0                        # external grid energy
+e0max 0.0 10000                      # max initial energy; max number of retries
+ga_pop_size 150                      # number of individuals in population
+(Para1: Thay giá trị 150 bằng giá trị người dùng nhập)
+ga_num_evals 2500000                 # maximum number of energy evaluations
+(Para2: Thay giá trị 2500000 bằng giá trị người dùng nhập)
+ga_num_generations 27000             # maximum number of generations
+(Para3: Thay giá trị 27000 bằng giá trị người dùng nhập)
+ga_elitism 1                         # number of top individuals to survive to next generation
+(Para4: Thay giá trị 1 bằng giá trị người dùng nhập)
+ga_mutation_rate 0.02                # rate of gene mutation
+(Para5: Thay giá trị 0.02 bằng giá trị người dùng nhập)
+ga_crossover_rate 0.8                # rate of crossover
+(Para6: Thay giá trị 0.8 bằng giá trị người dùng nhập)
+ga_window_size 10                    # 
+(Para7: Thay giá trị 10 bằng giá trị người dùng nhập)
+ga_cauchy_alpha 0.0                  # Alpha parameter of Cauchy distribution
+(Para8: Thay giá trị 0.00 bằng giá trị người dùng nhập)
+ga_cauchy_beta 1.0                   # Beta parameter Cauchy distribution
+(Para9: Thay giá trị 1.0 bằng giá trị người dùng nhập)
+set_ga                               # set the above parameters for GA or LGA
+unbound_model bound                  # state of unbound ligand
+do_global_only 50                    # do this many GA runs
+(Para10: Thay giá trị 50 bằng giá trị người dùng nhập)
+analysis                             # perform a ranked cluster analysis
+
++ Thay  x1hpv thành tên Protein
++ Thay  ZINC00000480 thành tên Ligand.
+

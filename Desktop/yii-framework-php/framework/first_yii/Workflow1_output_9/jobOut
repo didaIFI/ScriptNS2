@@ -1,0 +1,1 @@
+__importExternals: Failed to import lcg_util == EXCEPTION == Unknown exception type:No module named lcg_util =============== Failures occurred during rm.getFile ERROR 18666556: {'Successful': {}, 'Failed': {'/biomed/user/l/louacheni/18666/18666556/LDSB.qkTxIi': 'DataManager.getFile: Failed to get local copy from any replicas.'}}

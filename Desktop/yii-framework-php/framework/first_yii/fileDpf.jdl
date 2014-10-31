@@ -1,0 +1,6 @@
+JobName = "docking_biomedP";
+Executable = "fileDpf.sh";
+StdOutput = {"fileDpfOut"};
+StdError = {"fileDpfErr"};
+InputSandbox = {"fileDpf.sh", "LFN:/biomed/user/l/louacheni/file10.tar.gz"};
+OutputSandbox = {"fileDpfOut", "fileDpfErr","fileDpf.dlg",  "DLG.zip", "GLG.zip", "fileDpf.zip", "fileDpf.tar.bz2"};

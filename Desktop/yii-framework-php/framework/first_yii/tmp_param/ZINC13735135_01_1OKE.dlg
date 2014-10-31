@@ -1,0 +1,64 @@
+          AutoDock 4.2 Release 4.2.5.1 
+         (C) 1989-2012 The Scripps Research Institute
+        AutoDock comes with ABSOLUTELY NO WARRANTY.
+        AutoDock is free software, and you are welcome
+        to redistribute it under certain conditions;
+        for details type 'autodock4 -C'
+
+                     main.cc  $Revision: 1.194 $
+
+                   Compiled on Jan  8 2013 at 10:31:56
+
+
+This file was created at:			6:46 51" p.m., 08/24/2014
+                   using:			"thinkpad"
+
+      ________________________________________________________________
+
+                   SETTING UP DEFAULT PARAMETER LIBRARY
+      ________________________________________________________________
+
+
+Random number generator was seeded with values 953, 1408880811.
+Docking parameter file (DPF) used for this docking:		ZINC13735135_01_1OKE.dpf
+DPF> autodock_parameter_version 4.2       # used by autodock to validate parameter set
+
+	Autodock parameter version 4.2.
+DPF> outlev 1                             # diagnostic output level
+
+Output Level = 1  ADT-COMPATIBLE OUTPUT DURING DOCKING.
+DPF> intelec                              # calculate internal electrostatics
+
+Electrostatic energies will be calculated for all non-bonds between moving atoms.
+DPF> seed pid time                        # seeds for random generator
+
+Random number generator was seeded with values 953, 1408880811.
+DPF> ligand_types A C Cl HD N OA          # atoms types in ligand
+
+DPF> fld 1OKE.maps.fld                    # grid_data_file
+
+Opening Grid Map Dimensions file:		1OKE.maps.fld
+Grid Point Spacing =				0.375 Angstroms
+
+Even Number of User-specified Grid Points =	40 x-points
+						42 y-points
+						40 z-points
+
+Coordinates of Central Grid Point of Maps =	(-11.477, 74.735, 50.376)
+Macromolecule file used to create Grid Maps =	1OKE.pdbqt
+Grid Parameter file used to create Grid Maps =	1OKE.gpf
+Minimum coordinates in grid = (-18.977, 66.860, 42.876)
+Maximum coordinates in grid = (-3.977, 82.610, 57.876)
+
+DPF> map 1OKE.A.map                       # atom-specific affinity map
+
+DPF> map 1OKE.C.map                       # atom-specific affinity map
+
+DPF> map 1OKE.Cl.map                      # atom-specific affinity map
+
+/home/dida/DIRAC/autodock4: Wrong number of x grid-points in grid-map file "1OKE.Cl.map".
+/home/dida/DIRAC/autodock4: Use either 60 or 40 throughout!
+/home/dida/DIRAC/autodock4: FATAL ERROR: Using wrong grid-map file.
+
+/home/dida/DIRAC/autodock4: Unsuccessful Completion.
+

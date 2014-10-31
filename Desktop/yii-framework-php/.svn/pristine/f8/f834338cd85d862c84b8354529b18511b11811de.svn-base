@@ -1,0 +1,5 @@
+copy.src.files=false
+copy.src.target=C:\\xampp\\htdocs\\yii-1.1.13.e9e4a0
+index.file=requirements/index.php
+run.as=LOCAL
+url=http://localhost/yii-1.1.13.e9e4a0/

@@ -1,0 +1,31 @@
+<?php
+/* @var $this ProjectController */
+/* @var $model Project */
+
+$this->breadcrumbs=array(
+	'Projects'=>array('index'),
+	'Manage',
+);
+
+$this->menu=array(
+	array('label'=>'List Project', 'url'=>array('index')),
+	array('label'=>'Create Project', 'url'=>array('create')),
+);
+
+?>
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'project-grid',
+	'dataProvider'=>$model->search(),
+	'columns'=>array(
+		'project_id',
+		'user_id',
+		'waiting_job',
+		'running_job',
+		'completed_job',
+		'failed_job',
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
+)); ?>

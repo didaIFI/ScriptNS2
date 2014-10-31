@@ -1,0 +1,6 @@
+JobName = "docking_biomedP";
+Executable = "ZINC12442659_01_1OKE.sh";
+StdOutput = {"ZINC12442659_01_1OKEOut"};
+StdError = {"ZINC12442659_01_1OKEErr"};
+InputSandbox = {"ZINC12442659_01_1OKE.sh", "LFN:/biomed/user/l/louacheni/file10.tar.gz"};
+OutputSandbox = {"ZINC12442659_01_1OKEOut", "ZINC12442659_01_1OKEErr","ZINC12442659_01_1OKE.dlg",  "DLG.zip", "GLG.zip", "ZINC12442659_01_1OKE.zip", "ZINC12442659_01_1OKE.tar.bz2"};

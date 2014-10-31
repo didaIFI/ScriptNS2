@@ -1,0 +1,55 @@
+Thay cho slide 11
+
+﻿autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+seed pid time                        # seeds for random generator
+ligand_types A SA C HD N             # atoms types in ligand
+fld x1hpv.maps.fld                   # grid_data_file
+map x1hpv.A.map                      # atom-specific affinity map
+map x1hpv.SA.map                     # atom-specific affinity map
+map x1hpv.C.map                      # atom-specific affinity map
+map x1hpv.HD.map                     # atom-specific affinity map
+map x1hpv.N.map                      # atom-specific affinity map
+elecmap x1hpv.e.map                  # electrostatics map
+desolvmap x1hpv.d.map                # desolvation map
+move ZINC00000480.pdbqt              # small molecule
+about 1.8394 0.7828 1.6624           # small molecule center
+tran0 1.8394 0.7828 1.6624           # initial coordinates/A or random
+quaternion0 0 0 0 1                  # initial orientation
+dihe0 0 0                            # initial dihedrals (relative) or random
+tstep 2.0                            # translation step/A
+qstep 50.0                           # quaternion step/deg
+dstep 50.0                           # torsion step/deg
+torsdof 2                            # torsional degrees of freedom
+rmstol 2.0                           # cluster_tolerance/A
+extnrg 1000.0                        # external grid energy
+e0max 0.0 10000                      # max initial energy; max number of retries
+rt0 1000.0                           # initial annealing temperature (times gas constant)
+(Tham số initial temperature, thay 1000.0 bằng giá trị người dùng nhập)
+linear_schedule                      # use linear, arithmetic temperature 
+(Nếu người dùng chọn reduction schedule type là geometric, thì không có parameter này)
+rtrf 0.95                            # annealing temperature reduction factor
+(Tham số Temperature, thay giá trị 0.95 bằng giá trị người dùng nhập / 100)
+trnrf 1.0                            # per cycle reduction factor for translation
+(Tham số Translation, thay giá trị 1.0 bằng giá trị người dùng nhập)
+quarf 1.0                            # per cycle reduction factor for quaternions
+(Tham số quaternions, thay giá trị 1.0 bằng giá trị người dùng nhập)
+dihrf 1.0                            # per cycle reduction factor for dihedrals
+(Tham số dihedrals, thay giá trị 1.0 bằng giá trị người dùng nhập)
+runs 10                              # Tham số Run, thay giá trị 10 bằng giá trị người dùng nhập
+cycles 50                            # number of temperature reduction cycles
+Tham số cycles, thay giá trị 50 bằng giá trị người dùng nhập
+accs 100                             # maximum number of accepted steps per cycle
+Tham số acepted steps/cycles, thay giá trị 100 bằng giá trị người dùng nhập
+rejs 100                             # maximum number of rejected steps per cycle
+Tham số rejected steps/cycles, thay giá trị 100 bằng giá trị người dùng nhập
+select m                             # state selection flag: (m)inimum or (l)ast state
+Tham số use, thay giá trị m hoặc l nếu ng dùng chọn minimun or last state
+unbound_model bound                  # state of unbound ligand
+simanneal                            # do as many SA runs as set by runs keyword above
+analysis                             # perform a ranked cluster analysis
+
++ Thay hết các tên x1hpv thành tên Protein.
++ Thay ZINC00000480 thành tên ligand.
+

@@ -1,0 +1,8 @@
+<?php /* @var $this Controller */ ?>
+<?php $this->beginContent('//layouts/main'); ?>
+<div id="content">
+        jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+	<?php echo $content; ?>
+        jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+</div><!-- content -->
+<?php $this->endContent(); ?>

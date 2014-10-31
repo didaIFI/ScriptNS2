@@ -1,0 +1,43 @@
+Thay cho slide 11
+
+﻿autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+seed pid time                        # seeds for random generator
+ligand_types A SA C HD N             # atoms types in ligand
+fld protein_name.maps.fld                   # grid_data_file
+map protein_name.A.map                      # atom-specific affinity map
+map protein_name.SA.map                     # atom-specific affinity map
+map protein_name.C.map                      # atom-specific affinity map
+map protein_name.HD.map                     # atom-specific affinity map
+map protein_name.N.map                      # atom-specific affinity map
+elecmap protein_name.e.map                  # electrostatics map
+desolvmap protein_name.d.map                # desolvation map
+move ligand_name.pdbqt              # small molecule
+about 1.8394 0.7828 1.6624           # small molecule center
+tran0 1.8394 0.7828 1.6624           # initial coordinates/A or random
+quaternion0 0 0 0 1                  # initial orientation
+dihe0 0 0                            # initial dihedrals (relative) or random
+tstep 2.0                            # translation step/A
+qstep 50.0                           # quaternion step/deg
+dstep 50.0                           # torsion step/deg
+torsdof 2                            # torsional degrees of freedom
+rmstol 2.0                           # cluster_tolerance/A
+extnrg 1000.0                        # external grid energy
+e0max 0.0 10000                      # max initial energy; max number of retries
+rt0 sa_9                           # initial annealing temperature (times gas constant)(1000.0)
+linear_schedule                      # use linear, arithmetic temperature 
+rtrf sa_8                            # annealing temperature reduction factor(0.95)
+trnrf sa_5                            # per cycle reduction factor for translation(1.0)
+quarf sa_6                            # per cycle reduction factor for quaternions(1.0)
+dihrf sa_7                            # per cycle reduction factor for dihedrals(1.0)
+runs sa_1                              # Tham số Run, thay giá trị 10 bằng giá trị người dùng nhập(10)
+cycles sa_3                            # number of temperature reduction cycles(50)
+accs sa_2                             # maximum number of accepted steps per cycle(100)
+rejs sa_4                             # maximum number of rejected steps per cycle(100)
+select sa_type_1                             # state selection flag: (m)inimum or (l)ast state
+unbound_model bound                  # state of unbound ligand
+simanneal                            # do as many SA runs as set by runs keyword above
+analysis                             # perform a ranked cluster analysis
+
+

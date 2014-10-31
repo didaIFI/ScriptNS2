@@ -1,0 +1,116 @@
+<?php
+
+/**
+ * This is the model class for table "protein".
+ *
+ * The followings are the available columns in table 'protein':
+ * @property integer $protein_id
+ * @property string $name
+ * @property string $file_name
+ * @property double $resolution
+ * @property string $co_crystallized_ligand
+ * @property string $archive_protein
+ * @property double $center_x
+ * @property double $center_y
+ * @property double $center_z
+ * @property double $size_x
+ * @property double $size_y
+ * @property double $size_z
+ */
+class Protein extends CActiveRecord
+{
+	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return Protein the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'protein';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('resolution, center_x, center_y, center_z, size_x, size_y, size_z', 'numerical'),
+			array('name, file_name, co_crystallized_ligand, archive_protein', 'length', 'max'=>200),
+			// The following rule is used by search().
+			// Please remove those attributes that should not be searched.
+			array('protein_id, name, file_name, resolution, co_crystallized_ligand, archive_protein, center_x, center_y, center_z, size_x, size_y, size_z', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'protein_id' => 'Protein',
+			'name' => 'Name',
+			'file_name' => 'File Name',
+			'resolution' => 'Resolution',
+			'co_crystallized_ligand' => 'Co Crystallized Ligand',
+			'archive_protein' => 'Archive Protein',
+			'center_x' => 'Center X',
+			'center_y' => 'Center Y',
+			'center_z' => 'Center Z',
+			'size_x' => 'Size X',
+			'size_y' => 'Size Y',
+			'size_z' => 'Size Z',
+		);
+	}
+
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('protein_id',$this->protein_id);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('file_name',$this->file_name,true);
+		$criteria->compare('resolution',$this->resolution);
+		$criteria->compare('co_crystallized_ligand',$this->co_crystallized_ligand,true);
+		$criteria->compare('archive_protein',$this->archive_protein,true);
+		$criteria->compare('center_x',$this->center_x);
+		$criteria->compare('center_y',$this->center_y);
+		$criteria->compare('center_z',$this->center_z);
+		$criteria->compare('size_x',$this->size_x);
+		$criteria->compare('size_y',$this->size_y);
+		$criteria->compare('size_z',$this->size_z);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+}

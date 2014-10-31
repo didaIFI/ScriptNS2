@@ -1,0 +1,12 @@
+
+/scratch/1490456.ce03.tier2.hep.manchester.ac.uk/CREAM155784215/DIRAC_37EkRXpilot/18480679/autogrid4: Sorry, I can't find or open Grid Parameter File "/var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/1OKE.gpf"
+
+/scratch/1490456.ce03.tier2.hep.manchester.ac.uk/CREAM155784215/DIRAC_37EkRXpilot/18480679/autogrid4: Unsuccessful Completion.
+
+
+/scratch/1490456.ce03.tier2.hep.manchester.ac.uk/CREAM155784215/DIRAC_37EkRXpilot/18480679/autodock4: can't find or open parameter file /var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/ZINC11865351_01_1OKE.dpf
+
+/scratch/1490456.ce03.tier2.hep.manchester.ac.uk/CREAM155784215/DIRAC_37EkRXpilot/18480679/autodock4: Unsuccessful Completion.
+
+autodock.sh: line 41: grid: command not found
+autodock.sh: line 42: dock: command not found

@@ -1,0 +1,12 @@
+
+/home/tmp/CREAM492866227/DIRAC_148MQNpilot/18319633/autogrid4: Sorry, I can't find or open Grid Parameter File "/var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/1OKE.gpf"
+
+/home/tmp/CREAM492866227/DIRAC_148MQNpilot/18319633/autogrid4: Unsuccessful Completion.
+
+
+/home/tmp/CREAM492866227/DIRAC_148MQNpilot/18319633/autodock4: can't find or open parameter file /var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/ZINC12663493_01_1OKE.dpf
+
+/home/tmp/CREAM492866227/DIRAC_148MQNpilot/18319633/autodock4: Unsuccessful Completion.
+
+autodock.sh: line 41: grid: command not found
+autodock.sh: line 42: dock: command not found

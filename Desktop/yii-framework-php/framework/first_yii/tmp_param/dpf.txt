@@ -1,0 +1,7 @@
+/home/dida/DIRAC/dpf/DLG.zip
+/home/dida/DIRAC/dpf/GLG.zip
+/home/dida/DIRAC/dpf/ZINC71389016_01_1OKE.zip
+/home/dida/DIRAC/dpf/ZINC71389016_02_1OKE.zip
+/home/dida/DIRAC/dpf/ZINC71389016_03_1OKE.zip
+/home/dida/DIRAC/dpf/ZINC71389186_01_1OKE.zip
+/home/dida/DIRAC/dpf/ZINC71389186_02_1OKE.zip

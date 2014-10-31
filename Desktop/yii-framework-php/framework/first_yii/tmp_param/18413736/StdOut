@@ -1,0 +1,28 @@
+autodock.sh
+autodocksuite-4.2.5.1-i86Linux2.tar.gz
+1OKE.maps.fld
+1OKE.maps.xyz
+1OKE.A.map
+1OKE.C.map
+1OKE.d.map
+1OKE.e.map
+1OKE.HD.map
+1OKE.N.map
+1OKE.OA.map
+1OKE.pdbqt
+1OKE.gpf
+ZINC71389016_01.pdbqt
+ZINC71389016_02.pdbqt
+ZINC71389016_03.pdbqt
+ZINC71389186_01.pdbqt
+ZINC71389186_02.pdbqt
+ZINC71389016_01_1OKE.dpf
+ZINC71389016_02_1OKE.dpf
+ZINC71389016_03_1OKE.dpf
+ZINC71389186_01_1OKE.dpf
+ZINC71389186_02_1OKE.dpf
+i86Linux2/
+i86Linux2/autogrid4
+i86Linux2/autodock4
+  adding: DockRes.dlg (deflated 80%)
+  adding: GridRes.glg (deflated 89%)

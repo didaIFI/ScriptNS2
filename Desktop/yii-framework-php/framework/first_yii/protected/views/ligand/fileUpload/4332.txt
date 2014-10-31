@@ -1,0 +1,45 @@
+InfoKey: Author
+InfoValue: Louacheni Farida
+InfoKey: Producer
+InfoValue: pdfTeX-1.40.10
+InfoKey: Creator
+InfoValue: LaTeX with 'moderncv' package
+InfoKey: ModDate
+InfoValue: D:20140202220839+07'00'
+InfoKey: Keywords
+InfoValue: Louacheni Farida, curriculum vit&#230;, resum&#233;
+InfoKey: PTEX.Fullbanner
+InfoValue: This is pdfTeX, Version 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian) kpathsea version 5.0.0
+InfoKey: Title
+InfoValue: Louacheni Farida &#8211; Curriculum Vitae
+InfoKey: Subject
+InfoValue: Resum&#233; of Louacheni Farida
+InfoKey: CreationDate
+InfoValue: D:20140202220839+07'00'
+PdfID0: 538d5a92ec69d251ba28191ebf37c86c
+PdfID1: 538d5a92ec69d251ba28191ebf37c86c
+NumberOfPages: 3
+BookmarkTitle: Education
+BookmarkLevel: 1
+BookmarkPageNumber: 1
+BookmarkTitle: Research Project
+BookmarkLevel: 1
+BookmarkPageNumber: 1
+BookmarkTitle: Employment and Training
+BookmarkLevel: 1
+BookmarkPageNumber: 1
+BookmarkTitle: 
+BookmarkLevel: 2
+BookmarkPageNumber: 1
+BookmarkTitle: Computer skills
+BookmarkLevel: 1
+BookmarkPageNumber: 2
+BookmarkTitle: Languages
+BookmarkLevel: 1
+BookmarkPageNumber: 2
+BookmarkTitle: Interests
+BookmarkLevel: 1
+BookmarkPageNumber: 2
+BookmarkTitle: References
+BookmarkLevel: 1
+BookmarkPageNumber: 2

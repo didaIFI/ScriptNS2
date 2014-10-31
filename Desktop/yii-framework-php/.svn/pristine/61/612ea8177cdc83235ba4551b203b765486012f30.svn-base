@@ -1,0 +1,36 @@
+﻿autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+seed pid time                        # seeds for random generator
+ligand_types A C HD OA N             # atoms types in ligand
+fld protein_name.maps.fld                     # grid_data_file
+map protein_name.A.map                        # atom-specific affinity map
+map protein_name.C.map                        # atom-specific affinity map
+map protein_name.HD.map                       # atom-specific affinity map
+map protein_name.OA.map                       # atom-specific affinity map
+map protein_name.N.map                        # atom-specific affinity map
+elecmap protein_name.e.map                    # electrostatics map
+desolvmap protein_name.d.map                  # desolvation map
+move ligand_name.pdbqt                       # small molecule
+about 2.7753 5.984 -7.6128           # small molecule center
+tran0 2.7753 5.984 -7.6128           # initial coordinates/A or random
+quaternion0 0 0 0 1                  # initial orientation
+dihe0 0 0 0 0 0 0 0 0 0 0 0 0 0 0    # initial dihedrals (relative) or random
+torsdof 14                            # torsional degrees of freedom
+rmstol 2.0                           # cluster_tolerance/A
+extnrg 1000.0                        # external grid energy
+e0max 0.0 10000                      # max initial energy; max number of retries
+ga_pop_size 150                      # number of individuals in population
+sw_max_its ls_1                       # iterations of Solis & Wets local search(300)
+sw_max_succ ls_2                        # consecutive successes before changing rho(4)
+sw_max_fail ls_3                        # consecutive failures before changing rho(4)
+sw_rho ls_4                           # size of local search space to sample(1)
+sw_lb_rho ls_5                       # lower bound on rho(0.01)
+set_psw1                             # set the above pseudo-Solis & Wets
+unbound_model bound                  # state of unbound ligand
+do_local_only 50                     # do this many LS runs
+analysis                             # perform a ranked cluster analysis
+
+
+
+

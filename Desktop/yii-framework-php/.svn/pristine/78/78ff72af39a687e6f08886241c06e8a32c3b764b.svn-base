@@ -1,0 +1,49 @@
+2013/05/30 18:08:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ngoisaoxinh.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+2013/05/30 18:10:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\gii\CCodeGenerator.php:90
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('code')
+#5 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code')
+#6 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=gii/model/code&id=0
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=gii/model
+---
+2013/06/05 11:14:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 D:\source_code\php\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin
+---
+2013/06/05 11:14:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\source_code\php\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 D:\source_code\php\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\source_code\php\yii-1.1.13.e9e4a0\framework\first_yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/admin
+HTTP_REFERER=http://localhost/yii-1.1.13.e9e4a0/framework/first_yii/index.php?r=admin/create
+---

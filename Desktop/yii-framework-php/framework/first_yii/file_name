@@ -1,0 +1,3 @@
+No proxy found 
+FileCatalog._getCatalogs: Failed to get file catalog configuration. Path /Resources/FileCatalogs does not exist or it's not a section
+File - must exist locally 

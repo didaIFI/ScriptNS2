@@ -1,0 +1,5 @@
+copy.src.files=false
+copy.src.target=C:\\xampp\\htdocs\\yii-framework-php
+index.file=framework/first_yii/index.php
+run.as=LOCAL
+url=http://localhost/yii-framework-php/

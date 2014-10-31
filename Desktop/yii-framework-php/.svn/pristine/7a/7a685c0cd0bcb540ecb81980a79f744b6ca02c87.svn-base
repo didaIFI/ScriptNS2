@@ -1,0 +1,26 @@
+<?php
+/* @var $this SiteController */
+
+$this->pageTitle=Yii::app()->name;
+?>
+<div id="intro" style="margin-left: auto; margin-right: auto; width: 900px; font-weight: bold; padding-top: 20px;">
+    <u>Introduction:</u>
+    <div style="font-weight: normal; padding-top: 10px;">
+        <ul>
+            <li>
+                The first...
+            </li>
+            <li>
+                The second...
+            </li>
+            <li>
+                Continue...
+            </li>
+        </ul>
+    </div>
+</div>
+<!--<ul>
+	<li>View file: <code><?php echo __FILE__; ?></code></li>
+	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
+</ul>-->
+

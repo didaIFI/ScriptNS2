@@ -1,0 +1,12 @@
+
+/home/biomed007/home_cream_669105259/CREAM669105259/DIRAC__aD1IRpilot/18269593/autogrid4: Sorry, I can't find or open Grid Parameter File "/var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/1OKE.gpf"
+
+/home/biomed007/home_cream_669105259/CREAM669105259/DIRAC__aD1IRpilot/18269593/autogrid4: Unsuccessful Completion.
+
+
+/home/biomed007/home_cream_669105259/CREAM669105259/DIRAC__aD1IRpilot/18269593/autodock4: can't find or open parameter file /var/www/yii-framework-php/framework/first_yii/protected/views/project/fileUpload/ZINC12663493_01_1OKE.dpf
+
+/home/biomed007/home_cream_669105259/CREAM669105259/DIRAC__aD1IRpilot/18269593/autodock4: Unsuccessful Completion.
+
+autodock.sh: line 41: grid: command not found
+autodock.sh: line 42: dock: command not found

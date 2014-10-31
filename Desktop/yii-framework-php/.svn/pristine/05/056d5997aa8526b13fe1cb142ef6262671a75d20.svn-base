@@ -1,0 +1,80 @@
+<?php
+/* @var $this ProteinController */
+/* @var $model Protein */
+/* @var $form CActiveForm */
+?>
+
+<div class="wide form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'action'=>Yii::app()->createUrl($this->route),
+	'method'=>'get',
+)); ?>
+
+	<div class="row">
+		<?php echo $form->label($model,'protein_id'); ?>
+		<?php echo $form->textField($model,'protein_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>200)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'file_name'); ?>
+		<?php echo $form->textField($model,'file_name',array('size'=>60,'maxlength'=>200)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'resolution'); ?>
+		<?php echo $form->textField($model,'resolution'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'co_crystallized_ligand'); ?>
+		<?php echo $form->textField($model,'co_crystallized_ligand',array('size'=>60,'maxlength'=>200)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'archive_protein'); ?>
+		<?php echo $form->textField($model,'archive_protein',array('size'=>60,'maxlength'=>200)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'center_x'); ?>
+		<?php echo $form->textField($model,'center_x'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'center_y'); ?>
+		<?php echo $form->textField($model,'center_y'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'center_z'); ?>
+		<?php echo $form->textField($model,'center_z'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'size_x'); ?>
+		<?php echo $form->textField($model,'size_x'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'size_y'); ?>
+		<?php echo $form->textField($model,'size_y'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'size_z'); ?>
+		<?php echo $form->textField($model,'size_z'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Search'); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- search-form -->
