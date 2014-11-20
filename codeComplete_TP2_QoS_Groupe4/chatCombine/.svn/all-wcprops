@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine
+END
+stream_server
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/stream_server
+END
+test.au
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/test.au
+END
+pulse_record
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/pulse_record
+END
+server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/server.cpp
+END
+stream_client
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/stream_client
+END
+pulse_play.c~
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/29/trunk/codeComplete/chatCombine/pulse_play.c~
+END
+pulse_play.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/pulse_play.c
+END
+client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/client.cpp
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/build
+END
+pulse_record.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/pulse_record.c
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/readme.txt
+END
+makeScript.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/makeScript.sh
+END
+pulse_play
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/pulse_play
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/Makefile
+END
+udp.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/28/trunk/codeComplete/chatCombine/udp.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/17/trunk/codeComplete/pulseAudio
+END
+makeScript.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/17/trunk/codeComplete/pulseAudio/makeScript.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19/trunk/codeComplete/pulseAudio/readme.txt
+END
+pulse_play
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/18/trunk/codeComplete/pulseAudio/pulse_play
+END
+pulse_play.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/codeComplete/pulseAudio/pulse_play.c
+END
+udp.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/17/trunk/codeComplete/pulseAudio/udp.h
+END
+test.au
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17/trunk/codeComplete/pulseAudio/test.au
+END
+pulse_record
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/codeComplete/pulseAudio/pulse_record
+END
+pulse_record.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/trunk/codeComplete/pulseAudio/pulse_record.c
+END

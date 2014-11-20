@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/22/trunk/codeComplete/textSend
+END
+pulse_play.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27/trunk/codeComplete/textSend/pulse_play.c
+END
+udp.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/22/trunk/codeComplete/textSend/udp.h
+END
+test.au
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/22/trunk/codeComplete/textSend/test.au
+END
+pulse_record
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/25/trunk/codeComplete/textSend/pulse_record
+END
+pulse_record.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/25/trunk/codeComplete/textSend/pulse_record.c
+END
+makeScript.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/22/trunk/codeComplete/textSend/makeScript.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/22/trunk/codeComplete/textSend/readme.txt
+END
+pulse_play
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/25/trunk/codeComplete/textSend/pulse_play
+END
