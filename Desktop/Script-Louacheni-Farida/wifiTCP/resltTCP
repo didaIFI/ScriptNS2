@@ -1,0 +1,13 @@
+Starting Simulation...
+NS EXITING...
+num_nodes is set 2
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 200.1
+1.000053: d: 90.000000, Pr: 1.151439e-09
+1.000268: d: 90.000000, Pr: 1.151439e-09
+1.000417: d: 90.000000, Pr: 1.151439e-09
+1.000456: d: 90.000000, Pr: 1.151439e-09
+1.000586: d: 90.000000, Pr: 1.151439e-09
+1.000628: d: 90.000000, Pr: 1.151439e-09
+1.000759: d: 90.000000, Pr: 1.151439e-09
+1.000800: d: 90.000000, Pr: 1.151439e-09

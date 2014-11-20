@@ -1,0 +1,16 @@
+#!/bin/sh
+#echo "keep AGT..."
+grep 'AGT' $1 > agt
+#echo "keep r..."
+grep -v 's ' agt > pkts_recv
+grep 'cbr ' pkts_recv > udp
+wc -l udp
+grep 'tcp ' pkts_recv > tcp
+wc -l tcp
+
+rm -f agt
+rm -f pkts_recv
+rm -f udp
+rm -f tcp
+
+
